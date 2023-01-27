@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="100dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_a"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="A"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_b"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="B"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_c"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="C"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_d"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="D"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_e"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="E"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_f"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="F"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_g"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="G"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_h"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="H"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_i"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="I"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_j"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="J"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_k"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="K"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_l"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="L"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_m"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="M"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_n"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="N"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_o"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="O"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_p"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="P"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_q"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Q"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_r"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="R"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_s"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="S"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_t"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="T"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_u"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="U"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_v"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="V"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_w"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="W"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_x"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="X"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_y"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Y"
+                style="@style/ButtonAttr"/>
+
+            <Button
+                android:id="@+id/btn_z"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Z"
+                style="@style/ButtonAttr"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <fragment
+        android:id="@+id/details_fragment_layout"
+        android:name="com.example.fragmentassignment.DetailsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
